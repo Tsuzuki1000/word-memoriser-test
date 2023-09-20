@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #333;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.site-title img {
+  width: 200px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6ebec9;
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin:  0 auto 150px;
+}
+
+.site-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.word {
+  width: 15%;
+}
+
+.means {
+  width: 15%;
+}
+
+.ex-word {
+  width: 40%;
+}
+
+.edit {
+  width: 15%;
+}
+
+.delete {
+  width: 15%;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  padding-bottom: 20px;
+  
+}
+
+
+td {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.word-add {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.word-add-btn {
+  display: inline-block;
+  background-color: #6ebec9;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10%;
+  color: #f0f0f0;
+}
+
+
+.word-add-btn:hover {
+  opacity: 0.7;
+}
+
+form button {
+  border: 1px solid #333;
+  color: #fff;
+  background: #333;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
+
+#footer {
+  background-color: #6ebec9;
+}
+
+#footer .footer-list {
+  padding: 20px;
+
+}
+
+#footer a {
+  color: #fff;}
+
+
+
+@media screen and (max-width:767px) {
+
+  header {
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    margin-bottom: 80px;
+  }
+
+  .word-add {
+    margin-bottom: 80px;
+  }
+
+  table {
+    font-weight: bold;
+  }
+
+  .inner {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .word-add-btn {
+    padding: 20px 60px 20px 60px;
+  }
+
+  .nav a {
+    padding: 10px 30px 10px 30px;
+  }
+
+  button {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+  }
+}

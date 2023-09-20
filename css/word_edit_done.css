@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin:  200px auto;
+}
+
+.comment {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.go-back {
+  text-align: center;
+}
+
+.go-back a {
+  color: #fff;
+  background: #333;
+  padding: 20px 30px 20px 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.go-back:hover {
+  opacity: 0.7;
+}
