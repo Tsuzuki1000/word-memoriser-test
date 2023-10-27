@@ -36,8 +36,6 @@ $nickname = $_SESSION['user_nickname'];
 
 
 
-
-
 ?>
 
 
@@ -53,16 +51,24 @@ $nickname = $_SESSION['user_nickname'];
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/random.css">
+  <meta name="description" content="<?php echo $description; ?>">
+  <title><?php echo $title; ?></title>
   <script src="../js/main.js"></script>
 </head>
 <body>
-  
+<div id="loading-screen">
+  <div class="loader"></div>
+</div>
     <header>
     <div class="inner">
         <h1 class="site-title">
-          <a href="dashboard.php">
-            <img src="../img/無題2532_20230831013738.png" alt="">
-          </a>
+        <?php
+        if(isset($_SESSION['login']) == true) {
+        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#">';
+        } else {
+          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+        }
+        ?>
         </h1>
         <div class="nav">
           "WELCOME!! <?php echo $nickname; ?>-san"
@@ -87,23 +93,22 @@ $nickname = $_SESSION['user_nickname'];
           </div>
         </div>
         <div class="btn">
-        <form action="" type="post" class="random-btn">
+        <form action="word_random.php" type="post" class="random-btn">
             <input type="hidden" value="<?php  echo '$numberCombinededUserid'; ?>">
             <button type="submit" class="click">Click here</button>
           </form>
           <div class="random-btn-for-word">
-            hide-word
+            word
           </div>
-          <div class="random-btn-for-means">hide-means</div>
+          <div class="random-btn-for-means">means</div>
         </div>
       </div>
     </main>
     <footer id="footer">
       <div class="inner">
       <ul class="footer-list">
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Our website</a></li>
+      <li><a href="./contact.php">Contact</a></li>
+    <li><a href="./about-us.php">About us</a></li>
       </ul>
       </div>
     </footer>

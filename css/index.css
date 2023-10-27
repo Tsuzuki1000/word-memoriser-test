@@ -79,6 +79,18 @@ h1 {
   margin-bottom: 60px;
 }
 
+.japanese {
+  margin-bottom: 60px;
+}
+
+.english {
+  margin-bottom: 60px;
+}
+
+.contact {
+  margin-bottom: 60px;
+}
+
 .register {
   margin-bottom: 60px;
 }
@@ -196,6 +208,18 @@ p {
   .explain {
     width: 100%;
     margin-bottom: 120px;
+  }
+
+  .japanese {
+    padding: 0 20px 0 20px;
+  }
+
+  .english {
+    padding: 0 20px 0 20px;
+  }
+
+  .contact {
+    padding: 0 20px 0 20px;
   }
 
   .register-and-login {

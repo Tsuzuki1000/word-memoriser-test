@@ -55,7 +55,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/word_edit.css">
-  <title>Document</title>
+  <meta name="description" content="<?php echo $description; ?>">
+  <title><?php echo $title; ?></title>
 </head>
 <body>
   <div class="wrapper">

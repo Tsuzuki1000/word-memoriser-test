@@ -25,7 +25,8 @@ $id = $_SESSION['user_id'];
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title><?php echo $title; ?></title>
+  <meta name="description" content="<?php echo $description; ?>">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,9 +41,13 @@ $id = $_SESSION['user_id'];
   <header>
   <div class="inner">
       <h1 class="site-title">
-        <a href="#">
-          <img src="../img/無題2532_20230831013738.png" alt="">
-        </a>
+      <?php
+        if(isset($_SESSION['login']) == true) {
+        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#">';
+        } else {
+          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+        }
+        ?>
       </h1>
       <div class="nav">
         <?php echo "WELCOME!! {$nickname}-san"?>
@@ -85,9 +90,8 @@ $id = $_SESSION['user_id'];
   <footer id="footer">
     <div class="footer-inner">
     <ul class="footer-list">
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Our website</a></li>
+    <li><a href="./contact.php">Contact</a></li>
+    <li><a href="./about-us.php">About us</a></li>
     </ul>
     </div>
   </footer>

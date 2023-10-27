@@ -24,3 +24,17 @@ function validateToken() {
   }
 }
 
+//タイトル//
+
+$title = "word-memoriser";
+
+$title = h($title);
+
+//ディスクリプション//
+
+$description = "英単語暗記サイトです。英語で英語を学びましょう";
+
+$description = h($description);
+
+
+

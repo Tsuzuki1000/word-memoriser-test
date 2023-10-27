@@ -1,5 +1,5 @@
 
-
+<?php require('../app/config.php'); ?>
 
 
 <!DOCTYPE html>
@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/user_add_login.css">
   <script src="../js/main.js"></script>
-  <title>Document</title>
+  <meta name="description" content="<?php echo $description; ?>">
+  <title><?php echo $title; ?></title>
 </head>
 <body>
 <div id="loading-screen">
@@ -22,9 +23,13 @@
 <header id="header">
     <div class="inner">
       <h1 class="site-title">
-        <a href="#">
-          <img src="../img/無題2532_20230831013738.png" alt="#">
-        </a>
+      <?php
+        if(isset($_SESSION['login']) == true) {
+        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#">';
+        } else {
+          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+        }
+        ?>
       </h1>
     </div>
   </header>
@@ -50,9 +55,8 @@
   <footer id="footer">
     <div class="inner">
     <ul class="footer-list">
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Our website</a></li>
+    <li><a href="./contact.php">Contact</a></li>
+    <li><a href="./about-us.php">About us</a></li>
     </ul>
     </div>
   </footer>
