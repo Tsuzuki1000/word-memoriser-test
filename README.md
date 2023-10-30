@@ -61,8 +61,6 @@ to do
 
 git hub pagesでhtml cssの履歴書作る。
 
-
 phpサイトを公開する。
 
-githubのメモを完成させる
 
