@@ -32,11 +32,14 @@
 
 
 <h2>使用技術</h2>
-html
-css
-JavaScript
-PHP
-Mysql
+<ul>
+  <li>html</li>
+  <li>css</li>
+  <li>JavaScript</li>
+  <li>PHP</li>
+  <li>Mysql</li>
+</ul>
+
 
 gitを使ってgithubにpushし、herokuにデプロイしております。
 
