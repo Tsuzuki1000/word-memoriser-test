@@ -3,7 +3,7 @@
 
 <img src="https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/3fdcecd3-e569-45c1-b79c-ca054693209b">
 
-<img src="[https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/a4799e5a-7a63-40d3-878d-106dc7f37437](https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/9de37ee4-00ca-4027-ab6b-da9591c10695)">
+<img src="https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/355b33e4-e14d-4eba-a30b-fdf129b6ef77">
 
 
 <h2>サイトについて</h2>
