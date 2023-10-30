@@ -1,7 +1,9 @@
 
 # word-memoriser-test
 
+<img src="https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/a4799e5a-7a63-40d3-878d-106dc7f37437](https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/6d1c9844-86ae-47ad-a88c-5ad282938e58">
 
+<img src="[https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/a4799e5a-7a63-40d3-878d-106dc7f37437](https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/9de37ee4-00ca-4027-ab6b-da9591c10695)">
 
 
 <h2>サイトについて</h2>
@@ -22,6 +24,8 @@
 
 
 <img src="https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/a4799e5a-7a63-40d3-878d-106dc7f37437">
+
+
 
 
 <h2>サイトの機能</h2>
