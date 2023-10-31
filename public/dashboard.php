@@ -4,6 +4,8 @@ session_start();
 
 session_regenerate_id(true);
 
+require('../app/config.php'); 
+
 if(isset($_SESSION['login']) == false) {
 
   echo 'ログインされていません';
