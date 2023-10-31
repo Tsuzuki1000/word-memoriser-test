@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.site-title {
+  width: 120px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+li {
+  list-style: none;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.inner {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.site-title img {
+  width: 200px;
+}
+
+#hero {
+  margin-bottom: 60px;
+}
+
+#hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin:  0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.japanese {
+  margin-bottom: 60px;
+}
+
+.english {
+  margin-bottom: 60px;
+}
+
+.contact {
+  margin-bottom: 60px;
+}
+
+.register {
+  margin-bottom: 60px;
+}
+
+.explain {
+  width: 40%;
+}
+
+.register-and-login {
+  width: 40%;
+}
+
+.register h2 {
+  font-weight: bold;
+}
+
+.login h2 {
+  font-weight: bold;
+}
+
+p {
+  margin: 16px 0;
+}
+
+.register p {
+  margin-bottom: 30px;
+}
+
+.register a {
+  display: inline-block;
+  background-color: #6ebec9;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.register a:hover {
+  opacity: 0.7;
+}
+
+.login p {
+  margin-bottom: 30px;
+}
+
+.login a {
+  display: inline-block;
+  background-color: #6ebec9;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+
+#footer {
+  background-color: #6ebec9;
+}
+
+#footer .footer-list {
+  padding: 20px;
+
+}
+
+#footer a {
+  color: #fff;
+}
+
+@media screen and (max-width:767px) {
+
+  body {
+    font-size: 25px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+
+  .flex {
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 120px;
+  }
+
+  .register-title {
+    margin-bottom: 20px;
+  }
+
+  .register p {
+    margin-bottom: 40px;
+  }
+
+
+  .register a {
+    padding: 40px 60px 40px 60px;
+    font-size: 30px;
+  }
+
+  .login-title {
+    margin-bottom: 20px;
+  }
+
+  .login a {
+    padding: 40px 60px 40px 60px;
+    font-size: 30px;
+  }
+
+  .login p {
+    margin-bottom: 40px;
+  }
+
+  .explain {
+    width: 100%;
+    margin-bottom: 120px;
+  }
+
+  .japanese {
+    padding: 0 20px 0 20px;
+  }
+
+  .english {
+    padding: 0 20px 0 20px;
+  }
+
+  .contact {
+    padding: 0 20px 0 20px;
+  }
+
+  .register-and-login {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+  }
+
+}

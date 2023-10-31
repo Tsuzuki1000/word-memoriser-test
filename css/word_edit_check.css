@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin:  200px auto;
+}
+
+.word {
+  margin-bottom: 10px;
+}
+
+.word span {
+  font-weight: bold;
+}
+
+.means {
+  margin-bottom: 10px;
+}
+
+.means span {
+  font-weight: bold;
+}
+
+.example_word {
+  margin-bottom: 10px;
+}
+
+.example_word span {
+  font-weight: bold;
+}
+
+.consent {
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+
+.yes-btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.no-btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:767px) {
+  .btn {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .yes-btn {
+    margin-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+
+  .no-btn {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+
+  .no-btn a {
+    color: #fff;
+  }
+}
