@@ -40,7 +40,7 @@ session_start();
 session_regenerate_id(true);
 if(isset($_SESSION['login']) == false) {
   echo 'ログインされていません';
-  echo '<a href="index.html">ログイン画面へ</a>';
+  echo '<a href="index.php">ログイン画面へ</a>';
   exit();
 }
 //refer user_login_check line.63//

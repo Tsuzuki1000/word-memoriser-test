@@ -8,6 +8,13 @@ require_once('../app/config.php');
 try {
 
   session_start();
+  session_regenerate_id(true);
+if(isset($_SESSION['login']) == false) {
+  echo 'ログインされていません';
+  echo '<a href="index.php">ログイン画面へ</a>';
+  exit();
+}
+  
 
 //refer user_login_check line.63//
 $numberCombinededUserid = $_SESSION['user_id'] ;
