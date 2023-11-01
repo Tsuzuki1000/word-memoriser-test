@@ -57,10 +57,3 @@ gitを使ってgithubにpushし、herokuにデプロイしております。
 
 
 
-to do
-
-git hub pagesでhtml cssの履歴書作る。
-
-phpサイトを公開する。
-
-
