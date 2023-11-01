@@ -1,9 +1,11 @@
 
 # word-memoriser-test
 
-<img src="https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/9476e420-114c-4fc0-b305-71a2523c61f5">
-
-<img src="https://github.com/Tsuzuki1000/word-memoriser-test/assets/100422646/355b33e4-e14d-4eba-a30b-fdf129b6ef77">
+<img src="https://github.com/Tsuzuki1000/WP-politics-matome/assets/100422646/dd100c72-fc0e-4490-81dd-3eb4763df25d">
+<img src="https://github.com/Tsuzuki1000/WP-politics-matome/assets/100422646/ac2fc83e-44d0-4286-9dda-7c40032295c6">
+<img src="https://github.com/Tsuzuki1000/WP-politics-matome/assets/100422646/dc4fd28a-bfc7-43cb-b10b-c122e3c97c7e">
+<img src="https://github.com/Tsuzuki1000/WP-politics-matome/assets/100422646/7b3ecf88-a683-40ac-8ecd-953d2ac0a022">
+<img src="https://github.com/Tsuzuki1000/WP-politics-matome/assets/100422646/6fd9caa5-b8c2-45ee-a0b6-144b9307971d">
 
 
 <h2>サイトについて</h2>
