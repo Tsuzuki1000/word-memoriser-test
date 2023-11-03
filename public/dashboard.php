@@ -33,8 +33,8 @@ $id = $_SESSION['user_id'];
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/dashboard.css">
-    <script src="../js/main.js"></script>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
 <div id="loading-screen">
@@ -45,9 +45,9 @@ $id = $_SESSION['user_id'];
       <h1 class="site-title">
       <?php
         if(isset($_SESSION['login']) == true) {
-        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#">';
+        echo '<a href="dashboard.php"><img src="img/無題2532_20230831013738.png" alt="#">';
         } else {
-          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+          echo '<a href="index.php"><img src="img/無題2532_20230831013738.png" alt="#"></a>';
         }
         ?>
       </h1>
@@ -58,28 +58,28 @@ $id = $_SESSION['user_id'];
     </div>
   </header>
   <div id="hero">
-  <img src="../img/00034-1912969846.png" alt="#">
+  <img src="img/00034-1912969846.png" alt="#">
   </div>
   <main>
     <div class="wrapper">
     <h2 class="section-title">Section select</h2>
       <div class="container">
       <div class="list-of-words section">
-        <img src="../img/00016-4009279661.png" alt="#">
+        <img src="img/00016-4009279661.png" alt="#">
         <div class="section-desc">
         <p>The words you added is here.</p>
         </div>
       <a href="word_list.php" class="btn">List of words</a>
       </div>
       <div class="word-random section">
-        <img src="../img/00017-359623082.png" alt="#">
+        <img src="img/00017-359623082.png" alt="#">
         <div class="section-desc">
         <p>You can refer the words you added randomly.</p>
           </div>
       <a href="word_random.php" class="btn">Random words</a>
       </div>
       <div class="learn-on-youtube section">
-        <img src="../img/00019-2196945916.png" alt="#">
+        <img src="img/00019-2196945916.png" alt="#">
         <div class="section-desc">
         <p>You can pick up new words from news article.</p>
         <p class="coming-soon">Coming soon</p>

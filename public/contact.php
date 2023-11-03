@@ -17,8 +17,8 @@ session_regenerate_id(true);
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <meta name="description" content="<?php echo $description; ?>">
-  <link rel="stylesheet" href="../css/index.css">
-  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/main.js"></script>
   <title><?php echo $title; ?></title>
 </head>
 <body>

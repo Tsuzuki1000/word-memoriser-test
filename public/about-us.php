@@ -15,8 +15,8 @@ session_start();
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?php echo $description; ?>">
-  <link rel="stylesheet" href="../css/index.css">
-  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="/css/index.css">
+  <script src="/js/main.js"></script>
   <title><?php echo $title; ?></title>
 </head>
 <body>

@@ -11,8 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/user_add_login.css">
-  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="css/user_add_login.css">
+  <script src="js/main.js"></script>
   <meta name="description" content="<?php echo $description; ?>">
   <title><?php echo $title; ?></title>
 </head>
@@ -25,9 +25,9 @@
       <h1 class="site-title">
       <?php
         if(isset($_SESSION['login']) == true) {
-        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#">';
+        echo '<a href="dashboard.php"><img src="img/無題2532_20230831013738.png" alt="#">';
         } else {
-          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+          echo '<a href="index.php"><img src="img/無題2532_20230831013738.png" alt="#"></a>';
         }
         ?>
       </h1>
@@ -35,7 +35,7 @@
   </header>
   <main>
     <div id="hero">
-      <img src="../img/00037-1122313239.png" alt="#">
+      <img src="img/00037-1122313239.png" alt="#">
     </div>
   <div class="wrapper">
   <h2 class="register-title">Register</h2>

@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/word_delete.css">
+  <link rel="stylesheet" href="css/word_delete.css">
   <meta name="description" content="<?php echo $description; ?>">
   <title><?php echo $title; ?></title>
 </head>
