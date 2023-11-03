@@ -27,16 +27,16 @@ session_regenerate_id(true);
       <h1 class="site-title">
       <?php
         if(isset($_SESSION['login']) == true) {
-        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+        echo '<a href="dashboard.php"><img src="img/無題2532_20230831013738.png" alt="#"></a>';
         } else {
-          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+          echo '<a href="index.php"><img src="img/無題2532_20230831013738.png" alt="#"></a>';
         }
         ?>
       </h1>
     </div>
   </header>
   <div id="hero">
-    <img src="../img/00036-1122313238.png" alt="#">
+    <img src="img/00036-1122313238.png" alt="#">
   </div>
   <main>
     <div class="wrapper">
@@ -50,8 +50,8 @@ session_regenerate_id(true);
   <footer id="footer">
     <div class="inner">
     <ul class="footer-list">
-    <li><a href="./contact.php">Contact</a></li>
-    <li><a href="./about-us.php">About us</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    <li><a href="about-us.php">About us</a></li>
     </ul>
     </div>
   </footer>

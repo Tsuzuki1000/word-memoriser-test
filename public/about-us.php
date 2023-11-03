@@ -15,8 +15,8 @@ session_start();
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?php echo $description; ?>">
-  <link rel="stylesheet" href="/css/index.css">
-  <script src="/js/main.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/main.js"></script>
   <title><?php echo $title; ?></title>
 </head>
 <body>
@@ -26,16 +26,16 @@ session_start();
       <h1 class="site-title">
       <?php
         if(isset($_SESSION['login']) == true) {
-        echo '<a href="dashboard.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+        echo '<a href="dashboard.php"><img src="img/無題2532_20230831013738.png" alt="#"></a>';
         } else {
-          echo '<a href="index.php"><img src="../img/無題2532_20230831013738.png" alt="#"></a>';
+          echo '<a href="index.php"><img src="img/無題2532_20230831013738.png" alt="#"></a>';
         }
         ?>
       </h1>
     </div>
   </header>
   <div id="hero">
-    <img src="../img/00036-1122313238.png" alt="#">
+    <img src="img/00036-1122313238.png" alt="#">
   </div>
   <main>
     <div class="wrapper">
